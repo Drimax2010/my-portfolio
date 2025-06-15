@@ -1,0 +1,25 @@
+.projects-section {
+  padding: 4rem 1rem;
+  background: var(--secondary-color);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.section-title::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: var(--accent-color);
+  display: block;
+  margin: 8px auto 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
