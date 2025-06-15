@@ -47,6 +47,19 @@
   border-radius: 6px 0 0 6px;
   transition: width 1s ease-in-out;
 }
+@media (max-width: 768px) {
+  .imageWrapper {
+    display: none
+  }
+  .imageWrapper img {
+    display: none
+  }
+  .content {
+    flex: 10;
+  }
+
+
+}
 
 .imageWrapper {
   flex: 1.2;
