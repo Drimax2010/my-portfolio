@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5db99ac6.css",
-    "main.js": "/my-portfolio/static/js/main.d757b1af.js",
+    "main.css": "/my-portfolio/static/css/main.562b382d.css",
+    "main.js": "/my-portfolio/static/js/main.7bc4a8ac.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/proficiency.gif": "/my-portfolio/static/media/proficiency.863db08e243221a6a883.gif",
     "static/media/avatar.jpeg": "/my-portfolio/static/media/avatar.17eaae6cb578bc076549.jpeg",
+    "static/media/mysql.svg": "/my-portfolio/static/media/mysql.43de11b606ebbf08dc0ff0a2c482c686.svg",
+    "static/media/kubernetes.svg": "/my-portfolio/static/media/kubernetes.98bbc6a595e48652d2d0426dd854e7bb.svg",
+    "static/media/react.svg": "/my-portfolio/static/media/react.ca28b8f998b8248e344edf5248d7c3e8.svg",
+    "static/media/android.svg": "/my-portfolio/static/media/android.d3b0ca88cbabe1bae3db105cd3e991f6.svg",
+    "static/media/keycloak.svg": "/my-portfolio/static/media/keycloak.c838ce972e6ca20518b28ef3527791c6.svg",
+    "static/media/ionic.svg": "/my-portfolio/static/media/ionic.f1603278c28baa73c79916dc329edd94.svg",
+    "static/media/neo4j.svg": "/my-portfolio/static/media/neo4j.a3fe25cc4e85c7438e6f604b87522652.svg",
+    "static/media/elastic.svg": "/my-portfolio/static/media/elastic.4e4853957827e0d08f489be2c3ca98a5.svg",
+    "static/media/java.svg": "/my-portfolio/static/media/java.3c5854fce4aa30ad19d569c45d5ce874.svg",
+    "static/media/graphql.svg": "/my-portfolio/static/media/graphql.e335785b409b208e429d32813d4c00a2.svg",
+    "static/media/gcp.svg": "/my-portfolio/static/media/gcp.dd8fa784860da51ee0d7ddceb8850919.svg",
+    "static/media/angular.svg": "/my-portfolio/static/media/angular.ae99c44fb632c38bd5a25650d73f7c3d.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.5db99ac6.css.map": "/my-portfolio/static/css/main.5db99ac6.css.map",
-    "main.d757b1af.js.map": "/my-portfolio/static/js/main.d757b1af.js.map",
+    "static/media/mongodb.svg": "/my-portfolio/static/media/mongodb.248452feeca109873151fa9a3c240629.svg",
+    "static/media/docker.svg": "/my-portfolio/static/media/docker.33b620e922df8e04c5d8ac6d4bd386bc.svg",
+    "static/media/css3.svg": "/my-portfolio/static/media/css3.ecf719557e567a208c0388a4e4a0dcb9.svg",
+    "static/media/html5.svg": "/my-portfolio/static/media/html5.f3e6c3a6c3040264e15f2e8dcb516c80.svg",
+    "main.562b382d.css.map": "/my-portfolio/static/css/main.562b382d.css.map",
+    "main.7bc4a8ac.js.map": "/my-portfolio/static/js/main.7bc4a8ac.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db99ac6.css",
-    "static/js/main.d757b1af.js"
+    "static/css/main.562b382d.css",
+    "static/js/main.7bc4a8ac.js"
   ]
 }
