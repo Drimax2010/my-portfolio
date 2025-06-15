@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.48d25981.css",
-    "main.js": "/my-portfolio/static/js/main.a1cffd56.js",
+    "main.js": "/my-portfolio/static/js/main.ed366c82.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/proficiency.gif": "/my-portfolio/static/media/proficiency.863db08e243221a6a883.gif",
-    "static/media/resume_daniel_tobon_uribe.pdf": "/my-portfolio/static/media/resume_daniel_tobon_uribe.8a561ff9e65620ca501b.pdf",
+    "static/media/resume_daniel_tobon_uribe.pdf": "/my-portfolio/static/media/resume_daniel_tobon_uribe.8539a9369e3134a30536.pdf",
     "static/media/avatar.jpeg": "/my-portfolio/static/media/avatar.17eaae6cb578bc076549.jpeg",
     "static/media/mysql.svg": "/my-portfolio/static/media/mysql.43de11b606ebbf08dc0ff0a2c482c686.svg",
     "static/media/kubernetes.svg": "/my-portfolio/static/media/kubernetes.98bbc6a595e48652d2d0426dd854e7bb.svg",
@@ -24,11 +24,11 @@
     "static/media/css3.svg": "/my-portfolio/static/media/css3.ecf719557e567a208c0388a4e4a0dcb9.svg",
     "static/media/html5.svg": "/my-portfolio/static/media/html5.f3e6c3a6c3040264e15f2e8dcb516c80.svg",
     "main.48d25981.css.map": "/my-portfolio/static/css/main.48d25981.css.map",
-    "main.a1cffd56.js.map": "/my-portfolio/static/js/main.a1cffd56.js.map",
+    "main.ed366c82.js.map": "/my-portfolio/static/js/main.ed366c82.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48d25981.css",
-    "static/js/main.a1cffd56.js"
+    "static/js/main.ed366c82.js"
   ]
 }
