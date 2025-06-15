@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+# Portfolio de Daniel Tobón
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositorio contiene el código fuente de mi **Portfolio** personal, donde presento mi perfil profesional, proyectos destacados y datos de contacto.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Índice
 
-### `yarn start`
+- [Descripción](#descripción)
+- [Demo en Vivo](#demo-en-vivo)
+- [Estructura de Directorios](#estructura-de-directorios)
+- [Tecnologías](#tecnologías)
+- [Instalación y Uso](#instalación-y-uso)
+- [Despliegue](#despliegue)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📄 Descripción
 
-### `yarn test`
+Mi portfolio está diseñado con un **diseño sobrio e interactivo** Incluye:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Sección de **Proyectos Destacados** con tarjetas dinámicas.
+- Efectos de **scroll reveal** para toda la página.
+- Sección de **Contacto** con enlaces a LinkedIn y correo.
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Demo en Vivo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> https://drimax2010.github.io/my-portfolio/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## 📁 Estructura de Directorios
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+my-portfolio/
+├─ public/
+│ └─ index.html
+├─ src/
+│ ├─ assets/
+│ │ └─ avatar.jpg
+│ ├─ components/
+│ │ ├─ Header/
+│ │ │ ├─ Header.js
+│ │ │ └─ header.module.css
+│ │ ├─ Projects/
+│ │ │ ├─ Projects.js
+│ │ │ ├─ ProjectItem.js
+│ │ │ └─ projects.module.css
+│ │ └─ Contact/
+│ │ ├─ Contact.js
+│ │ └─ contact.module.css
+│ ├─ data/
+│ │ └─ projects.js
+│ ├─ hooks/
+│ │ └─ useScrollReveal.js
+│ ├─ styles/
+│ │ ├─ variables.css
+│ │ ├─ base.css
+│ │ ├─ layout.css
+│ │ └─ reveal.css
+│ ├─ App.js
+│ ├─ App.css
+│ └─ index.js
+├─ .gitignore
+└─ README.md
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tecnologías
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React** 18
+- **CSS Modules** para encapsulación de estilos
+- **Framer Motion** (opcional) para animaciones
+- **Intersection Observer API** para scroll reveal
+- **GitHub Pages** para despliegue
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Instalación y Uso
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clona el repositorio:
 
-### Code Splitting
+   ```bash
+   git clone https://github.com/Drimax2010/mi-portafolio.git
+   cd mi-portafolio
+Instala dependencias:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+Copiar
+Editar
+npm install
+Inicia el servidor de desarrollo:
 
-### Analyzing the Bundle Size
+bash
+Copiar
+Editar
+npm start
+Abre http://localhost:3000 en tu navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Genera la versión de producción:
 
-### Making a Progressive Web App
+bash
+Copiar
+Editar
+npm run build
+📦 Despliegue
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages. Para actualizar:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm run deploy
+(Se recomienda configurar un script deploy con gh-pages o usar la sección Pages en GitHub).
 
-### Advanced Configuration
+🤝 Contribuciones
+¡Se aceptan sugerencias! Para colaborar:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Abre un issue describiendo tu propuesta.
 
-### Deployment
+Crea un branch con tu cambio: git checkout -b feature/nombre
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Haz commit de tus cambios: git commit -m "feat: descripción breve"
 
-### `yarn build` fails to minify
+Haz push: git push origin feature/nombre
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Abre un Pull Request.
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT.
+
+📬 Contacto
+Email: danieltu1026@gmail.com
+
+LinkedIn: daniel-tobon-uribe
+
+¡Gracias por visitar mi portfolio!
