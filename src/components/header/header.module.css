@@ -95,6 +95,20 @@
   display: none;
 }
 
+.buttonDownload {
+  background: var(--accent-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s;
+  margin-left: 0.5rem;
+}
+.buttonDownload:hover {
+  background: var(--primary-color);
+}
+
 @media (min-width: 768px) {
   .avatarWrapper {
     display: block;

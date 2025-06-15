@@ -6,7 +6,6 @@ import useScrollReveal from '../hooks/useScrollReveal';
 
 export default function Projects() {
     const [ref, revealed] = useScrollReveal({ threshold: 0.2 });
-     console.log('[TestReveal] render, revealed =', revealed);
     return (
         <section 
             id="projects"

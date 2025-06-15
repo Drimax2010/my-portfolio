@@ -43,6 +43,7 @@ my-portfolio/
 ├─ src/
 │  ├─ assets/
 │  │  └─ avatar.jpg
+│  │  └─ resume_daniel_tobon_uribe.pdf
 │  │  ├─ icons/
 │  │  ├─ gifs/
 │  ├─ components/
@@ -62,6 +63,9 @@ my-portfolio/
 │  │  └─ Contact/
 │  │     ├─ Contact.js
 │  │     └─ contact.module.css
+│  │  └─ Experience/
+│  │     ├─ Experience.js
+│  │     └─ experience.module.css
 │  ├─ data/
 │  │  └─ projects.js
 │  ├─ hooks/
@@ -82,10 +86,9 @@ my-portfolio/
 
 ## 🛠️ Tecnologías
 
-- **React** 18
+- **React** 19
 - **CSS Modules** para encapsulación de estilos
 - **Framer Motion** (opcional) para animaciones
-- **Intersection Observer API** para scroll reveal
 - **GitHub Pages** para despliegue
 
 ---

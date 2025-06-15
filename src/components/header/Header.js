@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './header.module.css';
 import avatarImg from '../../assets/avatar.jpeg';
+import resumeFile from '../../assets/resume_daniel_tobon_uribe.pdf';
 
 export default function Header() {
   return (
@@ -14,6 +15,13 @@ export default function Header() {
         <div className={styles.actions}>
           <a href="#projects" className={styles.button}>Ver Proyectos</a>
           <a href="#contact" className={styles.buttonOutline}>Contáctame</a>
+          <a
+            href={resumeFile}
+            download
+            className={styles.buttonDownload}
+          >
+            Descargar CV
+          </a>
         </div>
       </div>
       <div className={styles.avatarWrapper}>

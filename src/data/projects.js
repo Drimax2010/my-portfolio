@@ -19,4 +19,9 @@ export const projects = [
     contact: 'https://wa.me/573138404790',
     description: 'Desarrollo completo del chatbot para atención de solicitudes de servicios y automatización de respuestas.',
   },
+  {
+    title: 'Control de Flota & Recaudo',
+    viewMore: 'https://nebulae.com.co/rcc/',
+    description: 'Desarrollo full-stack, integración con sistemas de validación y GPS mediante IOT',
+  },
 ];

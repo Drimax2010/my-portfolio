@@ -3,6 +3,8 @@ import Header from './components/header/Header';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
 import Proficiency from './components/proficiency/Proficiency';
+import Experience from './components/experience/Experience';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <Skills />
       <Proficiency/>
       <Projects />
-      {/* <Contact /> */}
+      <Experience/>
+      <Contact />
       {/* <Footer /> */}
     </div>
   );
