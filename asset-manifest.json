@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d72d4d2d.css",
-    "main.js": "/my-portfolio/static/js/main.8a88095a.js",
+    "main.css": "/my-portfolio/static/css/main.48d25981.css",
+    "main.js": "/my-portfolio/static/js/main.a1cffd56.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/proficiency.gif": "/my-portfolio/static/media/proficiency.863db08e243221a6a883.gif",
     "static/media/resume_daniel_tobon_uribe.pdf": "/my-portfolio/static/media/resume_daniel_tobon_uribe.8a561ff9e65620ca501b.pdf",
@@ -23,12 +23,12 @@
     "static/media/docker.svg": "/my-portfolio/static/media/docker.33b620e922df8e04c5d8ac6d4bd386bc.svg",
     "static/media/css3.svg": "/my-portfolio/static/media/css3.ecf719557e567a208c0388a4e4a0dcb9.svg",
     "static/media/html5.svg": "/my-portfolio/static/media/html5.f3e6c3a6c3040264e15f2e8dcb516c80.svg",
-    "main.d72d4d2d.css.map": "/my-portfolio/static/css/main.d72d4d2d.css.map",
-    "main.8a88095a.js.map": "/my-portfolio/static/js/main.8a88095a.js.map",
+    "main.48d25981.css.map": "/my-portfolio/static/css/main.48d25981.css.map",
+    "main.a1cffd56.js.map": "/my-portfolio/static/js/main.a1cffd56.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d72d4d2d.css",
-    "static/js/main.8a88095a.js"
+    "static/css/main.48d25981.css",
+    "static/js/main.a1cffd56.js"
   ]
 }
