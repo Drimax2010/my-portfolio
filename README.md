@@ -20,7 +20,7 @@ Este repositorio contiene el código fuente de mi **Portfolio** personal, donde 
 
 ## 📄 Descripción
 
-Mi portfolio está diseñado con un **diseño sobrio e interactivo** Incluye:
+Mi portfolio está diseñado con un **diseño sobrio e interactivo** que incluye:
 
 - Sección de **Proyectos Destacados** con tarjetas dinámicas.
 - Efectos de **scroll reveal** para toda la página.
@@ -36,37 +36,47 @@ Mi portfolio está diseñado con un **diseño sobrio e interactivo** Incluye:
 
 ## 📁 Estructura de Directorios
 
+```plaintext
 my-portfolio/
 ├─ public/
-│ └─ index.html
+│  └─ index.html
 ├─ src/
-│ ├─ assets/
-│ │ └─ avatar.jpg
-│ ├─ components/
-│ │ ├─ Header/
-│ │ │ ├─ Header.js
-│ │ │ └─ header.module.css
-│ │ ├─ Projects/
-│ │ │ ├─ Projects.js
-│ │ │ ├─ ProjectItem.js
-│ │ │ └─ projects.module.css
-│ │ └─ Contact/
-│ │ ├─ Contact.js
-│ │ └─ contact.module.css
-│ ├─ data/
-│ │ └─ projects.js
-│ ├─ hooks/
-│ │ └─ useScrollReveal.js
-│ ├─ styles/
-│ │ ├─ variables.css
-│ │ ├─ base.css
-│ │ ├─ layout.css
-│ │ └─ reveal.css
-│ ├─ App.js
-│ ├─ App.css
-│ └─ index.js
+│  ├─ assets/
+│  │  └─ avatar.jpg
+│  │  ├─ icons/
+│  │  ├─ gifs/
+│  ├─ components/
+│  │  ├─ Header/
+│  │  │  ├─ Header.js
+│  │  │  └─ header.module.css
+│  │  ├─ Skills/
+│  │  │  ├─ Skills.js
+│  │  │  └─ skills.module.css
+│  │  ├─ Proficiency/
+│  │  │  ├─ proficiency.js
+│  │  │  └─ proficiency.module.css
+│  │  ├─ Projects/
+│  │  │  ├─ Projects.js
+│  │  │  ├─ ProjectItem.js
+│  │  │  └─ projects.module.css
+│  │  └─ Contact/
+│  │     ├─ Contact.js
+│  │     └─ contact.module.css
+│  ├─ data/
+│  │  └─ projects.js
+│  ├─ hooks/
+│  │  └─ useScrollReveal.js
+│  ├─ styles/
+│  │  ├─ variables.css
+│  │  ├─ base.css
+│  │  ├─ layout.css
+│  │  └─ reveal.css
+│  ├─ App.js
+│  ├─ App.css
+│  └─ index.js
 ├─ .gitignore
 └─ README.md
+```
 
 ---
 
@@ -89,24 +99,21 @@ my-portfolio/
    cd mi-portafolio
 Instala dependencias:
 
-bash
-Copiar
-Editar
-npm install
+```bash
+yarn install
+```
 Inicia el servidor de desarrollo:
 
-bash
-Copiar
-Editar
-npm start
+```bash
+yarn start
+```
 Abre http://localhost:3000 en tu navegador.
 
 Genera la versión de producción:
 
-bash
-Copiar
-Editar
-npm run build
+```bash
+yarn run build
+```
 📦 Despliegue
 Este proyecto está configurado para desplegarse automáticamente en GitHub Pages. Para actualizar:
 
@@ -116,13 +123,13 @@ npm run deploy
 🤝 Contribuciones
 ¡Se aceptan sugerencias! Para colaborar:
 
-Abre un issue describiendo tu propuesta.
+1. Abre un issue describiendo tu propuesta.
 
-Crea un branch con tu cambio: git checkout -b feature/nombre
+2. Crea un branch con tu cambio: git checkout -b feature/nombre
 
-Haz commit de tus cambios: git commit -m "feat: descripción breve"
+3. Haz commit de tus cambios: git commit -m "feat: descripción breve"
 
-Haz push: git push origin feature/nombre
+4. Haz push: git push origin feature/nombre
 
 Abre un Pull Request.
 

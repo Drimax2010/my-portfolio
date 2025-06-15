@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'TPI Plataforma Web (Open Source)',
     repo: 'https://github.com/nebulae-tpi',
-    description: 'Responsable del mantenimiento continuo desde 2020 hasta junio de 2025\nEncargado del soporte de nivel 3 para la plataforma web, resolución de incidencias críticas, implementación de mejoras y mantenimiento general del sistema.',
+    description: 'Responsable del mantenimiento continuo desde 2019 hasta junio de 2025\nEncargado del soporte de nivel 3 para la plataforma web, resolución de incidencias críticas, implementación de mejoras y mantenimiento general del sistema.',
   },
   {
     title: 'TPI Conductor',

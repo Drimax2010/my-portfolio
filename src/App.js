@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from './components/header/Header';
 import Projects from './components/projects/Projects';
-import Hero from './components/hero/hero'
-// importa About, Contact, Footer...
+import Skills from './components/skills/Skills';
+import Proficiency from './components/proficiency/Proficiency';
 
 function App() {
   return (
     <div className="container">
 
       <Header />
-      {/*<Hero /> */}
-      {/* <About /> */}
+      <Skills />
+      <Proficiency/>
       <Projects />
       {/* <Contact /> */}
       {/* <Footer /> */}

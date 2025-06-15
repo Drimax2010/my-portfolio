@@ -8,7 +8,7 @@ export default function Header() {
       <div className={styles.content}>
         <h1 className={styles.title}>¡Hola! Soy Daniel Tobón</h1>
         <p className={styles.subtitle}>
-          🎯 Desarrollador de software con más de 10 años de experiencia en transporte.
+          🎯 Desarrollador de software con más de 10 años de experiencia enfocado en solciones de transporte.
           Experto en DDD, CQRS, Event Sourcing y microservicios.
         </p>
         <div className={styles.actions}>
